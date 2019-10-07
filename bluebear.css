@@ -1,3 +1,4 @@
+/* had to put the image in the css because we are going to change the image when the display size changes */ 
 body {
 	width: 100%;
 	height: 100%;
@@ -92,7 +93,8 @@ h1{
 	max-height: 100%;
 	max-width: 100%;
 }
-
+/* this is the same display a sandoval's phone */ 
+/* the background turns into images/download.png and the divs restack on top of eachother and the website becomes scrollable. */
 @media only screen and (max-width: 414px){
 	body{
 		background-image: url("images/download.png");
